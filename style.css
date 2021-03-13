@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h2
+{
+    font-weight:400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .header{
+    position: absolute;
+    z-index:1;
+    width: 100%;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+.navbar-dark .navbar-brand{
+
+    color: #dcdde1;
+    
+}
+
+.nav-item{
+    font-weight:bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    color: #dcdde1;
+   
+}  */
+
+.main{
+    position: relative;
+    background: url(main.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    padding:220px 0 200px ;
+    
+}
+
+.main h6{
+    margin: 0;
+    padding: 0;
+    font-size: 3.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main .btn{
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:500px;
+    margin-top: 50px;
+    width: 150px;
+   
+}
+.about h3{
+    font-size: 36px;
+    font-weight:bold;
+    line-height: 2.0;
+    
+}
+.about h2{
+    font-size: 36px;
+    font-weight:bold;
+    line-height: 2.6;
+}
+.about p{
+    font-size: 18px;
+}
+.about .btn{
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:auto ;
+    margin-top: 50px;
+    width: 150px;
+}
+
+.products .btn{
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:auto ;
+    margin-top: 50px;
+    width: 150px;
+}
+.products h2{
+    margin: auto;
+}
+.products{
+    position: relative;
+    background: url(product.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    padding:220px 0 200px ;
+    color: #030c31;
+}
+.help .btn{
+
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:auto ;
+    width: 150px;
+    margin-top: 20px;
+}
+.help h2{
+    font-size: 22px;
+    margin-left: 20px;
+    padding:30px;
+}
+img
+{
+ width:100%;
+}
+.ourpartner .container
+{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* About section */
+
+.about-section{
+    position: relative;
+    background: url(main.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    padding:220px 0 200px ;
+
+}
+.about-section h6{
+    margin: 0;
+    padding: 0;
+    font-size: 3.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* product section */
+
+.product-section{
+    position: relative;
+    background: url(main.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    padding:220px 0 200px ;
+
+}
+.product-section h6{
+    margin: 0;
+    padding: 0;
+    font-size: 3.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* services section */
+
+.service-section{
+    position: relative;
+    background: url(main.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    padding:220px 0 200px ;
+
+}
+.service-section h6{
+    margin: 0;
+    padding: 0;
+    font-size: 3.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.mid-contact .btn{
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:auto ;
+    width: 150px;
+    margin-top: 20px;
+
+} 
+/* career section */
+.mid-career b
+{
+    margin-top: 40px;
+    padding: 1rem;
+    background-color: rgb(87, 120, 230);
+    color: #fff;
+    border-radius: 50%;
+}
+.mid-career .box
+{
+    
+    padding: 0.7rem;
+    background-color: rgb(252, 252, 252);
+    
+}
+.mid-career{
+    margin: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form .btn{
+
+    background:rgb(236, 63, 63) ;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    margin-left:auto ;
+    width: 150px;
+    margin-top: 20px;
+}
+.form input 
+{
+    border-radius: 5px;
+    padding: 10px;
+}
+.form select{
+    border-radius: 5px;
+    padding: 10px;
+}
+.form textarea
+{
+    border-radius: 5px;
+}
+
